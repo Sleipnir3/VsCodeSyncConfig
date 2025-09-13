@@ -1,0 +1,41 @@
+# -------------------------
+# VSCode 配置同步专用 .gitignore
+# -------------------------
+
+# 1. 忽略 VSCode 缓存和会话文件
+workspaceStorage/
+globalStorage/
+history/
+logs/
+User/workspaceStorage/
+User/globalStorage/
+
+# 2. 忽略 VSCode 扩展的本地数据（不影响 extensions.txt）
+extensions/
+User/extensions/
+
+# 3. 忽略 VSCode 生成的备份和临时文件
+*.tmp
+*.bak
+*.swp
+*.lock
+
+# 4. 忽略系统特定文件
+.DS_Store
+Thumbs.db
+
+# 5. 忽略 Git 自身文件
+.git/
+.gitignore
+
+# 6. 忽略不需要同步的 VSCode 文件（机器特定）
+User/Backups/
+User/workspaceStorage/
+User/globalStorage/
+User/history/
+
+# 7. 保留核心同步文件（强制追踪）
+!settings.json
+!keybindings.json
+!snippets/
+!extensions.txt
