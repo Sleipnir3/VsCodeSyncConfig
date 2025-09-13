@@ -26,7 +26,9 @@ Thumbs.db
 
 # 5. 忽略 Git 自身文件
 .git/
-.gitignore
+.vs/
+bin/
+obj/
 
 # 6. 忽略不需要同步的 VSCode 文件（机器特定）
 User/Backups/
