@@ -1,0 +1,31 @@
+﻿{
+    //"editor.fontFamily": "Cascadia Code, Consolas, 'Courier New', monospace",
+    //"editor.fontFamily": "NSimSun",
+    "editor.fontFamily": "'Monaspace Radon Var', monospace",
+    //"editor.fontFamily": "'Monaspace Xenon Var', monospace",
+    
+    
+    "editor.fontSize": 18,
+    "editor.fontWeight": "300", // 400=常规，500=中粗，600=半粗，700=粗体
+    "workbench.editor.wrapTabs": true,
+    "workbench.editor.showTabs": "multiple", // 确保显示标签
+
+        // 禁用所有连字特性
+    "editor.fontLigatures": false,
+
+
+    // 允许代码片段（snippets）出现时，仍然显示普通的快速建议
+    // 否则有些情况下会因为 snippet 阻止而不显示其他建议
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    // 在建议列表中显示来自当前文件的单词
+    "editor.suggest.showWords": true,
+    // 在建议列表中显示语言关键字（如 for、if、class 等）
+    "editor.suggest.showKeywords": true,
+
+    
+        // 在建议列表中显示类型图标
+    "editor.suggest.showIcons": true,
+    // 在建议列表中显示来源（如来自哪个模块）
+    "editor.suggest.showStatusBar": true,
+    "security.workspace.trust.untrustedFiles": "open",
+}
